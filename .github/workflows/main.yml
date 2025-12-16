@@ -31,9 +31,9 @@ jobs:
             git pull origin master
 
             echo "MONGO_URI=${{ secrets.MONGO_URI }}" > .env
-            echo "PORT=4000" >> .env
+            echo "PORT=5001" >> .env
 
             npm install
             pm2 delete student-api || true
             pm2 start server.js --name student-api
-            pm2 save
+            pm2 save
