@@ -27,7 +27,7 @@ jobs:
               git clone https://github.com/Devipriya1955/MERN_Netflix_Project_Backend.git
             fi
 
-            cd backend-sece-Aiml || exit 1
+            cd MERN_Netflix_Project_Backend || exit 1
             git pull origin master
 
             echo "MONGO_URI=${{ secrets.MONGO_URI }}" > .env
