@@ -10,7 +10,7 @@ import videoRoutes from './routes/video.js';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 // Connect to MongoDB
 connectDB();
@@ -21,7 +21,8 @@ app.use(cors({
     'http://localhost:3000', 
     'http://127.0.0.1:3000', 
     'http://localhost:5173',
-    'https://your-frontend-domain.vercel.app' // Add your frontend URL here
+    'https://netflixbucket2025.s3.ap-southeast-2.amazonaws.com',
+    'https://netflixbucket2025.s3-website-ap-southeast-2.amazonaws.com'
   ],
   credentials: true
 }));
