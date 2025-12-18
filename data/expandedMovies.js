@@ -1,11 +1,25 @@
 export const expandedMovies = [
-  // TRENDING NOW (15 movies)
+  // TRENDING NOW (15 movies) - Ordered: Working images first, TMDB-dependent last
+  {
+    title: "Big Buck Bunny",
+    description: "A large and lovable rabbit deals with three tiny bullies, led by a flying squirrel, who are determined to squelch his happiness.",
+    poster: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/800px-Big_buck_bunny_poster_big.jpg",
+    backdrop: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Big.Buck.Bunny.-.Opening.Screen.png/1280px-Big.Buck.Bunny.-.Opening.Screen.png",
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    tmdbId: 66732,
+    category: "trending",
+    genre: ["Animation", "Comedy", "Family"],
+    rating: 8.7,
+    year: 2008,
+    duration: "10m",
+    cast: ["Animated Short Film"]
+  },
   {
     title: "Stranger Things",
     description: "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
     poster: "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
     backdrop: "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     category: "trending",
     genre: ["Drama", "Fantasy", "Horror"],
     rating: 8.7,
@@ -29,8 +43,8 @@ export const expandedMovies = [
   {
     title: "The Night Agent",
     description: "While monitoring an emergency line, a vigilant FBI agent answers a call that plunges him into a deadly conspiracy involving a mole at the White House.",
-    poster: "https://image.tmdb.org/t/p/w500/y6SB2I8bAgKLlbB3NZ8VOupwER.jpg",
-    backdrop: "https://image.tmdb.org/t/p/original/owTVCy1Hl0u9Q8QNNpBOvn7XEWu.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/eGCkHTgqeB4L6YoNhsHkWE6NYXu.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/fOJEWqTQEwgK0p4VHKkBYu3Mgdp.jpg",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     category: "trending",
     genre: ["Action", "Drama", "Thriller"],
@@ -42,8 +56,8 @@ export const expandedMovies = [
   {
     title: "Ginny & Georgia",
     description: "Angsty and awkward fifteen year old Ginny Miller often feels more mature than her thirty year old mother, the irresistible and dynamic Georgia Miller.",
-    poster: "https://image.tmdb.org/t/p/w500/8KHycE6XdVZhVEeJNybADRsRbPu.jpg",
-    backdrop: "https://image.tmdb.org/t/p/original/6OsSP4DJfKUV0QTmns2lFgKrEbM.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/vLdoXPQFEqZd0qWLUTVqf5wqRjK.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/jpoERgGuV7GWxp8NjvhumGtBqbY.jpg",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
     category: "trending",
     genre: ["Comedy", "Drama"],
@@ -55,8 +69,8 @@ export const expandedMovies = [
   {
     title: "You",
     description: "A dangerously charming, intensely obsessive young man goes to extreme measures to insert himself into the lives of those he is transfixed by.",
-    poster: "https://image.tmdb.org/t/p/w500/7bEYdzvGiI4u4Pb3c76O1HwiEuW.jpg",
-    backdrop: "https://image.tmdb.org/t/p/original/9kg73Mg8WJKlB9Y2SAJzeDKAnuB.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/ezKGMZMQXoA9V3fRZUIqqCpJQCX.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/kxzqTJ7CcoHQdJT8V8QDZ0QVQKQ.jpg",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
     category: "trending",
     genre: ["Crime", "Drama", "Romance"],
@@ -68,8 +82,8 @@ export const expandedMovies = [
   {
     title: "Ozark",
     description: "A financial advisor drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
-    poster: "https://image.tmdb.org/t/p/w500/m73QiJOFMQWJxZHWtGpWO45TCYK.jpg",
-    backdrop: "https://image.tmdb.org/t/p/original/lZMb3R3e5vqukPbeDMeyYGf2ZNG.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/qJdfO3ahgAMf2rcmhoqngjBBZW1.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/aLCzq8qXc4ZPdXNZLkNhPrBRXEz.jpg",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
     category: "trending",
     genre: ["Crime", "Drama", "Thriller"],
@@ -133,7 +147,7 @@ export const expandedMovies = [
   {
     title: "Elite",
     description: "When three working-class teens enroll in an exclusive private school in Spain, the clash between them and the wealthy students leads to murder.",
-    poster: "https://image.tmdb.org/t/p/w500/3NTAbAiao4JLzFQw6YxP1YEZZdz.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/bdW83gR0RJFCZq7HJSKHKDCVJBB.jpg",
     backdrop: "https://image.tmdb.org/t/p/original/3UBQGKS8c7UgOGD4YhQm9Kt6FYs.jpg",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     category: "trending",
@@ -185,8 +199,8 @@ export const expandedMovies = [
   {
     title: "Dark",
     description: "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families.",
-    poster: "https://image.tmdb.org/t/p/w500/5csl9cMZwyNsskxBWsKaOtl4dWP.jpg",
-    backdrop: "https://image.tmdb.org/t/p/original/bGSqaHZOb5oQs8LukUzOLEa82mR.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/ApKRIHGLUkHNCKaPNb1MzeCdZzS.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/oquDGNfF6Tti4QNQNhxKx1SjwyP.jpg",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
     category: "trending",
     genre: ["Crime", "Drama", "Mystery"],
@@ -196,7 +210,7 @@ export const expandedMovies = [
     cast: ["Louis Hofmann", "Oliver Masucci", "Jördis Triebel"]
   },
 
-  // TOP RATED (15 movies)
+  // TOP RATED (15 movies) - Ordered: Working images first, TMDB-dependent last
   {
     title: "Breaking Bad",
     description: "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
@@ -213,7 +227,7 @@ export const expandedMovies = [
   {
     title: "The Crown",
     description: "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the twentieth century.",
-    poster: "https://image.tmdb.org/t/p/w500/1M876KQUEYQkomwGkxBusLnaj0z.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/4g2RMiKGdxWGHqvZlLzjqvUnUAI.jpg",
     backdrop: "https://image.tmdb.org/t/p/original/wHa6KOJAoNTFLFtp7wguUJKSnju.jpg",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
     category: "toprated",
@@ -265,7 +279,7 @@ export const expandedMovies = [
   {
     title: "Mindhunter",
     description: "In the late 1970s, two FBI agents broaden the realm of criminal science by investigating the psychology behind murder and end up getting too close to real-life monsters.",
-    poster: "https://image.tmdb.org/t/p/w500/fbKE87mojpIkNI6V3o2ynpW90CL.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/oKt4J3TFjWirVwBqoHyIvv5IImd.jpg",
     backdrop: "https://image.tmdb.org/t/p/original/uOqQrZGk2cMtLaGP2LHhzIap1P2.jpg",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     category: "toprated",
@@ -393,7 +407,7 @@ export const expandedMovies = [
     cast: ["Peter Dinklage", "Lena Headey", "Emilia Clarke"]
   },
 
-  // ACTION (15 movies)
+  // ACTION (15 movies) - Ordered: Working images first, TMDB-dependent last
   {
     title: "The Punisher",
     description: "After the murder of his family, Marine veteran Frank Castle becomes the vigilante known as The Punisher, with only one goal in mind: to avenge them.",
@@ -553,7 +567,7 @@ export const expandedMovies = [
   {
     title: "Sweet Tooth",
     description: "On a perilous adventure across a post-apocalyptic world, a lovable boy who's half-human and half-deer searches for a new beginning with a gruff protector.",
-    poster: "https://image.tmdb.org/t/p/w500/rgMfhcrVZjuy5b7hW2HEB5OxQVW.jpg",
+    poster: "https://image.tmdb.org/t/p/w500/1hJRohUxNlvquD8JjRW5LYLTQPI.jpg",
     backdrop: "https://image.tmdb.org/t/p/original/lBYC5DV9wHoTLNrSg8kqn4x8YSz.jpg",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     category: "action",
@@ -590,7 +604,20 @@ export const expandedMovies = [
     cast: ["Anthony Mackie", "Sebastian Stan", "Wyatt Russell"]
   },
 
-  // COMEDY (15 movies)
+  // COMEDY (15 movies) - Ordered: Working images first, TMDB-dependent last
+  {
+    title: "The Office",
+    description: "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+    poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/7L72gCz3Y5L9Zp7EWTV1CKBVNbr.jpg",
+    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    category: "comedy",
+    genre: ["Comedy"],
+    rating: 8.9,
+    year: 2005,
+    duration: "22m",
+    cast: ["Steve Carell", "John Krasinski", "Jenna Fischer"]
+  },
   {
     title: "The Good Place",
     description: "A woman struggles to be a good person when she realizes she's been mistakenly sent to the Good Place instead of the Bad Place.",
@@ -787,7 +814,20 @@ export const expandedMovies = [
     cast: ["Natasha Lyonne", "Charlie Barnett", "Greta Lee"]
   },
 
-  // HORROR (15 movies)
+  // HORROR (15 movies) - Ordered: Working images first, TMDB-dependent last
+  {
+    title: "The Conjuring",
+    description: "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+    poster: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+    backdrop: "https://image.tmdb.org/t/p/original/k956k0kP7gJx8wArVmqPeJOo5Ag.jpg",
+    tmdbId: 138843,
+    category: "horror",
+    genre: ["Horror", "Mystery", "Thriller"],
+    rating: 7.5,
+    year: 2013,
+    duration: "112m",
+    cast: ["Patrick Wilson", "Vera Farmiga", "Ron Livingston"]
+  },
   {
     title: "The Haunting of Bly Manor",
     description: "After an au pair's tragic death, Henry hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor.",
